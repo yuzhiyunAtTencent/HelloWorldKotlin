@@ -18,7 +18,9 @@ class MainActivity : AppCompatActivity() {
 //            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 //                    .setAction("Action", null).show()
 
-            
+//            制造一个crash: IndexOutOfBoundsException
+//            var dataList: MutableList<String> = mutableListOf()
+//            dataList[100]
         }
     }
 
